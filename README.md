@@ -41,7 +41,7 @@ A downloadable starter kit that sets up a **personal AI agent** on your computer
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/YOUR_USERNAME/ai-agent-starter-kit.git
+git clone https://github.com/austinbailey198-hash/ai-agent-starter-kit.git
 
 # 2. Run the setup
 cd ai-agent-starter-kit
