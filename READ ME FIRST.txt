@@ -1,0 +1,299 @@
+═══════════════════════════════════════════════
+  PROMPT PERSON™ AI AGENT STARTER KIT
+  Your personal AI assistant — set up in 5 min
+═══════════════════════════════════════════════
+
+
+WHAT IS AN AI AGENT? (Read this first)
+
+  You've probably used ChatGPT or Claude before.
+  And yes — they've gotten better. They can
+  remember some things about you now. But they
+  still live inside a chat window. You type,
+  they respond. That's it.
+
+  They can't touch your files. They can't manage
+  your tasks. They can't run workflows. They can't
+  organize your projects. They live in a browser
+  tab and wait for you to come to them.
+
+  An AI agent is a completely different thing.
+
+  It lives on YOUR computer. It can:
+
+  • Read and write files on your machine
+  • Remember EVERYTHING — not just a few facts,
+    but your entire work context, client history,
+    preferences, writing style, and ongoing projects
+  • Run workflows — like "prep me for my meeting"
+    or "draft a follow-up sequence for this client"
+  • Take action — create documents, organize folders,
+    manage your task list, build things for you
+  • Get smarter every single day you use it
+
+  ChatGPT remembers your name.
+  An AI agent remembers your entire business.
+
+  This kit turns your computer into that agent.
+
+
+═══════════════════════════════════════════════
+
+
+IMPORTANT — WHAT THIS KIT CAN AND CAN'T DO
+
+  Let's be 100% real with you.
+
+  WHAT IT CAN DO RIGHT AWAY (no extra setup):
+  ✓ Draft emails, messages, and documents
+  ✓ Research any topic and summarize findings
+  ✓ Plan your day, week, and projects
+  ✓ Create task lists and track priorities
+  ✓ Write content — scripts, posts, captions
+  ✓ Remember everything about you and your work
+  ✓ Manage files and folders on your computer
+
+  WHAT IT CAN'T DO WITHOUT EXTRA SETUP:
+  ✗ Actually SEND emails (it can write them,
+    but you copy-paste into Gmail/Outlook)
+  ✗ Read or manage your real calendar
+  ✗ Send Slack messages for you
+  ✗ Browse the internet in real-time
+
+  To unlock those features, you'd need to connect
+  your accounts (Gmail, Calendar, Slack, etc.)
+  using something called MCP integrations.
+  The Pro Kit includes a step-by-step guide for
+  that, but it's an advanced step — not required
+  to get started.
+
+  BOTTOM LINE: Out of the box, your agent is a
+  brilliant assistant that lives in your terminal.
+  It writes, thinks, plans, and remembers. You
+  just can't send emails directly FROM it without
+  extra setup.
+
+
+═══════════════════════════════════════════════
+
+
+WHAT YOU NEED TO BUY / SET UP
+
+  The kit itself is a one-time purchase. But your
+  AI agent needs a "brain" to think with. That
+  brain costs a monthly fee, paid to Anthropic
+  (the company that makes Claude).
+
+  You have two options:
+
+  ─────────────────────────────────────────────
+  OPTION A: Claude Pro — $20/month (Easiest)
+  ─────────────────────────────────────────────
+
+  This is the simplest way to get started.
+
+  1. Go to claude.ai
+  2. Create an account (use your email)
+  3. Click "Upgrade to Pro" ($20/month)
+  4. That's it — Claude Code will use your
+     Pro subscription automatically
+
+  Think of this like a Netflix subscription,
+  but for your AI assistant.
+
+  ─────────────────────────────────────────────
+  OPTION B: API Credits — ~$5-20/month (Cheaper)
+  ─────────────────────────────────────────────
+
+  This is pay-as-you-go. You only pay for what
+  you actually use. Cheaper if you don't use
+  your agent every day.
+
+  1. Go to console.anthropic.com
+  2. Create an account
+  3. Go to "Billing" and add a credit card
+  4. Add $10 in credits (this lasts 1-3 weeks
+     depending on how much you use it)
+  5. Go to "API Keys" and click "Create Key"
+  6. COPY THAT KEY — you'll paste it during setup
+
+  What is an API key? It's basically a password
+  that lets your agent talk to the AI brain.
+  You paste it once during setup and never
+  think about it again.
+
+
+═══════════════════════════════════════════════
+
+
+HOW TO SET UP (3 steps)
+
+  ─────────────────────────────────────────────
+  STEP 1: Open the kit
+  ─────────────────────────────────────────────
+
+  You should see these files in the folder:
+
+    READ ME FIRST.txt    ← You're reading this
+    START HERE.command   ← This is what you click
+    setup.sh             ← Ignore this (runs auto)
+    templates/           ← Ignore this (used auto)
+    workflows/           ← Ignore this (used auto)
+    pro/                 ← Pro content (if you
+                           bought the Pro kit)
+
+  ─────────────────────────────────────────────
+  STEP 2: Double-click "START HERE"
+  ─────────────────────────────────────────────
+
+  A black window called "Terminal" will open.
+  Don't panic — this is normal!
+
+  The setup will walk you through everything:
+  • It checks if your computer has what it needs
+  • If something is missing, IT INSTALLS IT FOR YOU
+  • It asks your name, what you do, and what
+    you need help with
+  • It asks for your API key (if you have one)
+  • It builds your agent workspace
+
+  Just read what's on screen and press Enter
+  when it tells you to. Takes about 3 minutes.
+
+  NOTE FOR MAC USERS: The first time you double-
+  click "START HERE", your Mac might say
+  "this file is from an unidentified developer."
+  If that happens:
+  1. Go to System Settings > Privacy & Security
+  2. Scroll down and click "Open Anyway"
+  3. Or: right-click the file > click "Open"
+
+  ─────────────────────────────────────────────
+  STEP 3: Start talking to your agent
+  ─────────────────────────────────────────────
+
+  After setup, the script will offer to launch
+  your agent. Press Enter and it starts.
+
+  Next time you want to use it, open Terminal
+  and type:
+
+      cd ~/my-ai-agent && claude
+
+  (You can also just open Terminal and type
+  "claude" — it usually works from anywhere)
+
+
+═══════════════════════════════════════════════
+
+
+WHAT TO SAY TO YOUR AGENT
+
+  Talk to it like you'd talk to a real assistant.
+  Here are some examples to get you started:
+
+  WRITING:
+  "Draft an email to my team about rescheduling
+   tomorrow's meeting to Thursday"
+  "Write a professional LinkedIn post about
+   starting my new business"
+
+  PLANNING:
+  "Help me plan my week — I have a client call
+   Tuesday, a deadline Friday, and I want to
+   work out 3 times"
+  "Create a task list for launching my website"
+
+  RESEARCH:
+  "Research the top 5 project management tools
+   and tell me which one is best for freelancers"
+  "What are the pros and cons of starting an LLC
+   vs an S-Corp?"
+
+  REMEMBERING:
+  "Remember that my biggest client is Acme Corp
+   and my contact there is Sarah Johnson"
+  "Remember that I prefer short, direct emails"
+  "Remember that my content goes out on Tuesdays
+   and Thursdays"
+
+  IMPORTANT: When it drafts an email, it shows
+  it to you in the terminal. You then copy it
+  and paste it into Gmail/Outlook to send.
+  It does NOT send emails for you automatically
+  (unless you set up the Gmail integration in
+  the Pro kit's MCP guide).
+
+
+═══════════════════════════════════════════════
+
+
+HOW MUCH DOES THIS COST PER MONTH?
+
+  The kit: One-time purchase (you already paid)
+
+  The AI brain: $5-20/month, depending on use
+
+  Light use (a few conversations a day): ~$5/mo
+  Medium use (using it throughout the day): ~$10/mo
+  Heavy use (all day, every day): ~$15-20/mo
+
+  If you chose Claude Pro, it's a flat $20/mo
+  no matter how much you use it.
+
+
+═══════════════════════════════════════════════
+
+
+COMMON PROBLEMS & FIXES
+
+  "It says 'command not found' when I type claude"
+  → Close Terminal, open a new one, try again.
+  → If that doesn't work, run this:
+    npm install -g @anthropic-ai/claude-code
+
+  "It says 'npm not found'"
+  → You need Node.js. Go to nodejs.org and
+    install it. Then try again.
+
+  "My Mac won't let me open START HERE"
+  → Right-click the file, then click "Open"
+  → Or: System Settings > Privacy & Security
+    > scroll down > "Open Anyway"
+
+  "It's asking for an API key and I don't have one"
+  → See the "WHAT YOU NEED TO BUY" section above.
+  → Easiest path: sign up for Claude Pro at
+    claude.ai for $20/month.
+
+  "I set it up but it's not remembering things"
+  → Make sure you're always starting your agent
+    from the same folder: cd ~/my-ai-agent
+  → Say "remember that..." to explicitly tell
+    it to save something.
+
+  "I want it to actually send emails for me"
+  → That requires connecting your Gmail account.
+  → The Pro Kit includes an MCP Integration Guide
+    that walks you through this step by step.
+  → It's an advanced feature — not required to
+    get value from your agent.
+
+
+═══════════════════════════════════════════════
+
+
+NEED HELP?
+
+  Book a 30-min call with Austin and he'll
+  walk you through it live on screen share:
+
+  promptperson.com/book-a-call
+  (Free with Pro Kit, $20 for everyone else)
+
+  Follow @prompt.person on TikTok for tips
+
+
+═══════════════════════════════════════════════
+  Built by Austin Bailey | promptperson.com
+═══════════════════════════════════════════════
