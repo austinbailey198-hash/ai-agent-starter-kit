@@ -1,0 +1,168 @@
+═══════════════════════════════════════════════
+  PROMPT PERSON™ AI AGENT STARTER KIT
+  Windows Setup Guide
+═══════════════════════════════════════════════
+
+
+WINDOWS USERS: READ THIS FIRST
+
+  This kit uses a terminal script that runs
+  natively on Mac and Linux. On Windows, you
+  need one extra step to make it work.
+
+  Don't worry — it takes 2 minutes.
+
+
+═══════════════════════════════════════════════
+
+
+STEP 1: Install WSL (one time only)
+
+  WSL stands for "Windows Subsystem for Linux."
+  It lets you run the setup script on Windows.
+
+  1. Open PowerShell as Administrator:
+     - Click the Start menu
+     - Type "PowerShell"
+     - Right-click "Windows PowerShell"
+     - Click "Run as administrator"
+
+  2. Paste this command and press Enter:
+
+     wsl --install
+
+  3. Wait for it to finish (takes 2-5 minutes)
+
+  4. Restart your computer when prompted
+
+  5. After restart, a window will open asking
+     you to create a username and password.
+     Pick something simple — you'll need it
+     occasionally.
+
+  That's it. WSL is installed. You only do
+  this once.
+
+
+═══════════════════════════════════════════════
+
+
+STEP 2: Open WSL and navigate to the kit
+
+  1. Open the Start menu
+  2. Type "Ubuntu" (or "WSL") and open it
+  3. A terminal window will appear
+
+  4. Navigate to where you unzipped the kit.
+     Your Windows files are accessible at
+     /mnt/c/ in WSL.
+
+     For example, if the kit is in Downloads:
+
+     cd /mnt/c/Users/YOUR_USERNAME/Downloads/ai-agent-starter-kit
+
+     Replace YOUR_USERNAME with your actual
+     Windows username (check your C:\Users
+     folder if you're not sure).
+
+
+═══════════════════════════════════════════════
+
+
+STEP 3: Run the setup
+
+  Once you're in the kit folder, run:
+
+     chmod +x setup.sh
+     ./setup.sh
+
+  From here, everything is the same as the
+  main guide. Follow the on-screen prompts.
+
+
+═══════════════════════════════════════════════
+
+
+STEP 4: Use your agent
+
+  To start your agent going forward:
+
+  1. Open Ubuntu/WSL from the Start menu
+  2. Type:
+
+     cd ~/my-ai-agent && claude
+
+  That's it. Same experience as Mac/Linux.
+
+
+═══════════════════════════════════════════════
+
+
+ALTERNATIVE: Use PowerShell directly
+
+  If you don't want to install WSL, you can
+  set up everything manually in PowerShell:
+
+  1. Install Node.js:
+     - Go to nodejs.org
+     - Download the Windows installer
+     - Run it (click Next through everything)
+
+  2. Install Claude Code:
+     - Open PowerShell (regular, not admin)
+     - Run: npm install -g @anthropic-ai/claude-code
+
+  3. Create your workspace:
+     - Create a folder: mkdir ~/my-ai-agent
+     - Copy the workflows, templates, and
+       prompt-library.md into that folder
+     - Create a file called CLAUDE.md with
+       your agent instructions (see the
+       READ ME FIRST.txt for what goes in it)
+
+  4. Start your agent:
+     - Open PowerShell
+     - Run: cd ~/my-ai-agent
+     - Run: claude
+
+  This works but you miss the automated setup.
+  WSL is recommended for the full experience.
+
+
+═══════════════════════════════════════════════
+
+
+COMMON WINDOWS ISSUES
+
+  "wsl --install says it's not recognized"
+  → Make sure you're running PowerShell as
+    Administrator (right-click > Run as admin)
+  → Your Windows version might be too old.
+    You need Windows 10 version 2004+ or
+    Windows 11.
+
+  "I can't find my files in WSL"
+  → Your C: drive is at /mnt/c/ in WSL
+  → Example: C:\Users\John\Downloads becomes
+    /mnt/c/Users/John/Downloads
+
+  "claude command not found in WSL"
+  → Run these inside WSL:
+    curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+    sudo apt-get install -y nodejs
+    npm install -g @anthropic-ai/claude-code
+
+  "Permission denied when running setup.sh"
+  → Run: chmod +x setup.sh
+  → Then try again: ./setup.sh
+
+
+═══════════════════════════════════════════════
+
+
+NEED HELP?
+
+  Book a 30-min call with Austin:
+  promptperson.com/book-a-call
+
+═══════════════════════════════════════════════

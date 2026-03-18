@@ -1,0 +1,126 @@
+═══════════════════════════════════════════════
+  PROMPT PERSON™ — SECURITY & SAFETY
+═══════════════════════════════════════════════
+
+
+YOUR SAFETY MATTERS TO US
+
+  This kit was built with your privacy and
+  security as a top priority. Here's exactly
+  what it does and doesn't do.
+
+
+═══════════════════════════════════════════════
+
+
+WHAT THE KIT DOES:
+
+  ✓ Creates a folder on your computer
+    (~/my-ai-agent or ~/my-ai-agent-trial)
+
+  ✓ Writes text files (CLAUDE.md, memory
+    files, workflow templates)
+
+  ✓ Checks if Node.js and Claude Code are
+    installed — installs them if not (with
+    your permission)
+
+  ✓ Asks your name, role, and goals to
+    personalize your agent
+
+
+WHAT THE KIT DOES NOT DO:
+
+  ✗ Does NOT collect your personal data
+  ✗ Does NOT send information to any server
+  ✗ Does NOT access your email, contacts,
+    or files without your permission
+  ✗ Does NOT install hidden software
+  ✗ Does NOT run background processes
+  ✗ Does NOT modify system settings
+  ✗ Does NOT require admin/root access
+
+
+═══════════════════════════════════════════════
+
+
+100% TRANSPARENT CODE
+
+  The setup script (setup.sh) is a plain text
+  file. You can open it in any text editor and
+  read every single line before running it.
+  There is nothing hidden, obfuscated, or
+  encrypted. What you see is what it does.
+
+
+═══════════════════════════════════════════════
+
+
+100% LOCAL & PRIVATE
+
+  Everything runs on YOUR computer. Your files,
+  conversations, and agent data never leave
+  your machine.
+
+  The only external connection is to Anthropic's
+  API (claude.ai) when your agent needs to
+  think. This is the same connection used by
+  millions of Claude users worldwide.
+
+  We have zero access to:
+  - Your conversations with your agent
+  - Your files or documents
+  - Your API keys or credentials
+  - Anything on your computer
+
+
+═══════════════════════════════════════════════
+
+
+FILE INTEGRITY VERIFICATION
+
+  To verify your download hasn't been tampered
+  with, compare the SHA-256 checksum of your
+  zip file against the official checksums below.
+
+  Open Terminal and run:
+  shasum -a 256 your-downloaded-file.zip
+
+  Official checksums:
+
+  Free Kit:
+  77626264a12be78b5141400413a3edb582d18a95
+  ad87003c1d39e0b654d25243
+
+  Starter Kit:
+  d55b0e5e807d2d03d2cba199559dc5d9219af07f
+  aae7a55ca185badab670e629
+
+  Pro Kit:
+  ac3e9c62c7332e09c11a81b6c7989ff43cf6d996
+  5a9212b0b51e90a172dd4ce4
+
+  If the numbers match, your file is authentic
+  and unmodified.
+
+
+═══════════════════════════════════════════════
+
+
+OPEN SOURCE
+
+  The free version of this kit is open source
+  on GitHub. Anyone can inspect the code:
+  github.com/austinbailey198-hash/ai-agent-starter-kit
+
+
+═══════════════════════════════════════════════
+
+
+QUESTIONS OR CONCERNS?
+
+  Email: austin@678agency.com
+  Website: promptperson.com
+
+
+═══════════════════════════════════════════════

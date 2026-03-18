@@ -27,15 +27,14 @@
 
 A downloadable starter kit that sets up a **personal AI agent** on your computer. Not a chatbot — an agent that remembers you, manages your work, and gets smarter every day.
 
-**Yes, ChatGPT and Claude have memory now.** But remembering your name isn't the same as running your workflow. An AI agent lives on your machine, reads your files, runs workflows, and takes real action — not just answering questions in a chat window.
+**Yes, ChatGPT and Claude have memory now.** And Anthropic even launched **Cowork**, which lets you automate tasks right from the Claude desktop app — no terminal needed. That's great for getting started, but this kit is the customizable alternative: your own workflows, personas, memory architecture, and full portability across Claude Code or OpenClaw. An AI agent that you fully own and control.
 
-### What You Get (Free Version)
+### What You Get (Free Trial)
 
-- **One-command setup** — Run a script, answer 3 questions, done
-- **Persistent memory** — Your agent remembers everything between conversations
-- **Pre-built workflow** — Email drafting template included
-- **Daily task planner** — Template for organizing your day
+- **One-command setup** — Run a script, answer 1 question, done
+- **Talk to your agent** — See what an AI agent feels like in the terminal
 - **100% private** — Runs locally on your machine
+- **Limited responses** — Upgrade for full-length output, memory, workflows, and more
 
 ## Quick Start
 

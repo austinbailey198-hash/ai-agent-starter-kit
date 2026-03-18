@@ -19,6 +19,15 @@ WHAT IS AN AI AGENT? (Read this first)
 
   An AI agent is a completely different thing.
 
+  In fact, Anthropic just launched Cowork — a
+  feature in the Claude desktop app that lets
+  you automate tasks on your Mac without a
+  terminal. They even have Dispatch, which
+  lets you control it from your iPhone. Agents
+  are officially going mainstream. This kit
+  takes it further with custom workflows,
+  personas, and a memory system you fully own.
+
   It lives on YOUR computer. It can:
 
   • Read and write files on your machine
@@ -100,6 +109,18 @@ WHAT YOU NEED TO BUY / SET UP
 
   Think of this like a Netflix subscription,
   but for your AI assistant.
+
+  ─────────────────────────────────────────────
+  ─────────────────────────────────────────────
+  YOU ALSO NEED: VS Code (Free)
+  ─────────────────────────────────────────────
+
+  Download it at code.visualstudio.com
+
+  VS Code is a free code editor where you'll
+  work alongside your AI agent. It works on
+  Mac, Windows, and Linux. Just download it,
+  install it, and open it. That's it.
 
   ─────────────────────────────────────────────
   OPTION B: API Credits — ~$5-20/month (Cheaper)
